@@ -48,7 +48,7 @@ class ABCD extends Thread {
 				switch(getName()) {
 				case "Thread-0": break;
 				case "Thread-1": sleep(10); break;
-				case "Thread-2": sleep(20);	break;
+				case "Thread-2": sleep(20); break;
 				case "Thread-3": sleep(30); break;
 				}
 				s.acquire();
